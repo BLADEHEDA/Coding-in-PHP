@@ -12,5 +12,5 @@ sudo /opt/lampp/./manager-linux-x64.run
 
 ## -Day 2 march 2/03/2020\3
 -learned about the various ways to print out on the screen other echo 
--Got into this platform Exorcism.org where i can practice exercises when following alog the tutorials 
-0learned about the dufferent datatypes and variables
+-learned about variables 
+-learned about constants 
