@@ -14,3 +14,8 @@ sudo /opt/lampp/./manager-linux-x64.run
 -learned about the various ways to print out on the screen other echo 
 -learned about variables 
 -learned about constants 
+-leraned about control structures that that is if ,ele statements and switches 
+-learned about Arrays and the various types that exists 
+-learned abot the various types of loops and the most practical ones 
+-learned about functions 
+ps. i have stopped coding along to save myself some time for the fun part guess what PROJECTS 
