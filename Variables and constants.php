@@ -17,6 +17,9 @@ $decimal_val=99.9;
 echo($decimal_val);
 // print all in one line 
 echo $name."\r\n".$integr_value."\r\n".$bool_val."\r\n".$decimal_val;
+// constants 
+define("pi", "3.14");
+echo pi;
 
 
 
