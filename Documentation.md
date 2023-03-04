@@ -30,5 +30,9 @@ ps. i have stopped coding along to save myself some time for the fun part guess 
 ## -Day 4 March 04/03/2023
 -Learned about Sanitise inputs 
 - Learned about Cookies 
+-Learned about Sessions 
+-learned about File Handling 
+-learned about File uploading 
+-Learned about Exceptions 
 
 
