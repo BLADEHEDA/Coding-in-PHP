@@ -35,4 +35,20 @@ ps. i have stopped coding along to save myself some time for the fun part guess 
 -learned about File uploading 
 -Learned about Exceptions 
 
+## -Day 5 March 05/03/2023
+-Learned about Exceptions 
+-Learned Some basics of Object oriented programming in Php 
+- Learned about How to validate a form in PHP
+-Learned how to connect atabase to php file 
+-Learned how to submit data from form to database in php 
+-Learned how to rfetrieve data from form and display on page in php 
+
+## -Where to go from here 
+-Work on projects to learn and pratice the concepts thoroughly 
+## - Some of the projects to work on are : 
+1-Feedback application that takes information from form and stores to the database ,
+ then retrieve it back from database and displays to the page 
+ 2-REST APi 
+
+
 
