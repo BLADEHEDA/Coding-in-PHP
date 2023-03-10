@@ -7,6 +7,16 @@ Some PHP command shortcuts that can be very helpful
 
 ## -Command to startthe Xammp server  on ubuntu
 sudo /opt/lampp/./manager-linux-x64.run
+
+## - Command to create a folder using the Terminal 
+sudo mkdir folder_name 
+
+## - Command to write folders in restricted zones 
+sudo chown -R $USER:$USER folder_name 
+
+
+
+
 - Wrote my First hello world. 
 -learned how to comment in php
 
