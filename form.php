@@ -1,34 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
 
+<!DOCTYPE HTML>  
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 </head>
-
-<body>
+<body> 
     <!-- write the logic to validate the form  -->
     <?php
     // define the initials for the variables of the form 
-    $name= $email = $Feedback = " " ; 
+       $name = $email = $feedback = "" ; 
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $name = test_input($_POST["name"]);
+        // $email = test_input($_POST["email"]);
+        $email = test_input($_POST["email"]);
+        $feedback = test_input($_POST["feedback"]);
+      }
+    
     // create a function to text the nature of the input 
-    function testData($data){
+    function test_input($data){
         // ?check if the word had space before and after , backslashes and special chaharacters
         $data = trim($data);
         $data = stripslashes($data); 
         $data = htmlspecialchars($data);
         return $data;
     }
-  if ($_SERVER["REQUEST METHOD"]=="POST"){
-    $name= testData($_POST["name"]);
-    $email = testData(($_POST["email"]));
-    $Feedback = testData($_POST("feedback"));
-  }
-
     ?>
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP SELF"]); ?>    ">
+
+<h2>PHP Form Validation Example</h2>
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         <div class="div-name">
             <div>
             <label for="name">Name</label>
@@ -39,16 +37,23 @@
         <div>
             <label for="email">Email</label>
         </div>
-            <input type="email" name="email" placeholder="Enter your Email" class="name">
+            <input type="text" name="email" placeholder="Enter your Email" class="name">
         </div>
         <div class="div-feedback">
         <div>
             <label for="feedback">Feedback</label>
           </div>
-            <input type="text name  feedback" placeholder="Enter yur Feedback" class="name">
+            <input type="text"  name="feedback" placeholder="Enter yur Feedback" class="name">
         </div>
-    <button>Send </button>
+        <input type="submit" name="submit" value="Submit">
     </form>
+    <?php
+    echo "<h2>Your Input:</h2>";
+    echo $name;
+    echo "<br>";
+    echo $email;
+    echo $feedback;
+    ?>
 
 </body>
 
