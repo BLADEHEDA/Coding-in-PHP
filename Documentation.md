@@ -54,6 +54,7 @@ ps. i have stopped coding along to save myself some time for the fun part guess 
 -Learned how to rfetrieve data from form and display on page in php 
 
 ## -Where to go from here 
+-solve as manyexerciese if not all the exercises on W3 resource to have good mastery of the language basics basics then 
 -Work on projects to learn and pratice the concepts thoroughly 
 ## - Some of the projects to work on are : 
 1-Feedback application that takes information from form and stores to the database ,
