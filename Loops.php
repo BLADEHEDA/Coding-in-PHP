@@ -32,18 +32,17 @@ while($number<10){
   }
   echo "printing out $number"."<br>";
 }
-// $counter = 0;
-
-// while ($counter < 10) {
-//     $counter += 1;
-
-//     if ($counter % 2 == 0) {
-//         echo "Skipping number $counter because it is even.\n";
-//         continue;
-//     }
-
-//     echo "Executing - counter is $counter.\n";
-// }
-
-
+?>
+<?php
+// this section is for while loops exerciese Use a while loop to print all odd numbers in an array. Use the continue statement to skip loops and avoid printing even numbers.
+$numbers = [56, 65, 26, 86, 66, 34, 78, 74, 6];
+for($i=0; $i<count($numbers);$i++){
+if($numbers[$i]%2==0){
+  continue;
+  echo "the number is $numbers[$i] even"."<br>";  
+}
+else {
+  echo "the number is $numbers[$i] odd"."<br>";
+}
+}
 ?>
