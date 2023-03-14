@@ -14,5 +14,36 @@ foreach ($even_numbers as $even_number) {
 ?>
 <?php
 // while loops 
+$counter = 0;
+while($counter<10){
+  $counter+=1;
+  
+  echo"<br>";
+  echo $counter;
+};
+echo "printing out";
+echo"<br>";
+$number= 0;
+while($number<10){
+  $number+=1;
+  if($number%2==0){
+    echo "skipping the number $number bcs is even "."<br>";
+    continue;
+  }
+  echo "printing out $number"."<br>";
+}
+// $counter = 0;
+
+// while ($counter < 10) {
+//     $counter += 1;
+
+//     if ($counter % 2 == 0) {
+//         echo "Skipping number $counter because it is even.\n";
+//         continue;
+//     }
+
+//     echo "Executing - counter is $counter.\n";
+// }
+
 
 ?>
